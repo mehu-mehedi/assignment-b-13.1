@@ -272,7 +272,7 @@ header .hero-section{
     justify-content: space-between;
     margin:0 auto;
     padding-top: 120px;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
    
     
 }
@@ -289,6 +289,12 @@ header .hero-section{
     display: flex;
     gap: 16px;
 }
+.hrz{
+    
+    margin-bottom: 30px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
 .fot-pera{
     font-size: 16px;
     font-weight: 400;
@@ -296,6 +302,6 @@ header .hero-section{
     text-align: center;
     max-width: 1360px;
     margin: 0 auto;
-    padding-bottom:30px;
+    padding:30px;
     
 }
