@@ -38,7 +38,12 @@ nav ul li {
     background-color: #469165;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
     
+    
+}
+.logo-btn:hover{
+    background-color: #F95555 ;
 }
 /* bg-hero section style */
 header .hero-section{
@@ -55,9 +60,11 @@ header .hero-section{
     border: none;
     margin-top: 113px;
     margin-bottom: 16px;
-    
-   
-    
+    cursor: pointer;
+}
+.hero-btn:hover{
+    color: white;
+    background-color:#469165 ;
 }
 .narabo{
     display: flex;
@@ -78,6 +85,10 @@ header .hero-section{
     background-color: #469165;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+.hero-2nd-btn:hover{
+    background-color: rgba(137, 43, 226, 0.568);
 }
 .hero-3rd-btn{
     color: white;
@@ -87,6 +98,11 @@ header .hero-section{
     background-color: transparent;
     border-radius: 5px;
     border:1px solid white;
+    cursor: pointer;
+}
+.hero-3rd-btn:hover{
+    background-color: white;
+    color: #F95555;
 }
 .hero-title{
     font-weight: 700;
@@ -252,6 +268,7 @@ header .hero-section{
     color: #627382;
     padding-top: 16px;
     padding-bottom: 24px;
+    text-align: center;
 }
 .ready-describe{
     font-size: 16px;
