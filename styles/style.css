@@ -181,3 +181,43 @@ header .hero-section{
     font-size: 16px;
     color: #627382;
 }
+/* brain section style */
+.brain-section{
+     max-width: 1600px;
+    /* background-color: #F95555; */
+    margin: 0 auto;
+}
+.brain-container{
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.brain-sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    text-transform:uppercase;
+    margin-bottom: 16px;
+}
+.brain-title{
+     font-size:48px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+}
+.brain-describe{
+     font-size:16px;
+    font-weight:normal;
+    color: #627382;
+    margin-bottom: 40px;
+    
+}
+.frame{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+}
